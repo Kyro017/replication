@@ -36,8 +36,15 @@ body{
   box-shadow: 3px 3px 15px 0 rgba(0,0,0, .25);
   transition: 1.25s;
 
-
   &:hover{
     transform: rotateX(180deg);
   }
+}
+
+.front{
+
+}
+
+.back{
+  
 }
