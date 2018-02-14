@@ -44,11 +44,12 @@ body{
 .front{
   @extend %cardDimensions;
   @extend %flexCenter;
+  font-family: 'Satisfy' sans-serif;
 
 }
 
 .back{
   @extend %cardDimensions;
   @extend %flexCenter;
-  
+
 }
