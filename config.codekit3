@@ -53,6 +53,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/stylesheets\/sass\/core.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/stylesheets\/sass\/core-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/stylesheets\/sass\/core.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -61,9 +71,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/sass\/core.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/stylesheets\/css\/core-min.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/stylesheets\/sass\/reset.scss": {
