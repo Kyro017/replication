@@ -33,15 +33,28 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/stylesheets\/sass\/core.css": {
+	"\/stylesheets\/css\/reset.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/sass\/core-min.css",
+		"oAP": "\/stylesheets\/css\/reset-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/stylesheets\/sass\/core.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/core-min.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/stylesheets\/sass\/reset.scss": {
 		"aP": 0,
@@ -51,9 +64,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/sass\/reset.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/stylesheets\/css\/reset.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		}
 	},
