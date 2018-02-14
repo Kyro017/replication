@@ -33,6 +33,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/stylesheets\/css\/imgs\/vDayImg.jpg": {
+		"ft": 16384,
+		"iS": 90909,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/imgs\/vDayImg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/stylesheets\/css\/reset.css": {
 		"aP": 1,
 		"bl": 0,
