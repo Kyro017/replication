@@ -30,6 +30,8 @@ body{
 .card{
   height: 300px;
   width: 600px;
+  position: relative;
+  transform-style: preserve-3d;
   border-radius: 5px;
   box-shadow: 0 15px 15px 0;
 }
