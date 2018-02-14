@@ -42,9 +42,13 @@ body{
 }
 
 .front{
+  @extend %cardDimensions;
+  @extend %flexCenter;
 
 }
 
 .back{
+  @extend %cardDimensions;
+  @extend %flexCenter;
   
 }
