@@ -48,11 +48,23 @@ body{
   font-size: 5em;
   text-shadow: 3px 3px 5px 0 rgba(0,0,0,.50);
   background: url('imgs/vDayImg.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+  z-index: 2;
+  backface-visibility: hidden;
 
+  span{
+    transform: rotate(-20deg);
+  }
 }
 
 .back{
   @extend %cardDimensions;
   @extend %flexCenter;
-
+  font-family: 'Satisfy', sans-serif;
+  font-size: 4em;
+  background-color: #FFFFFF;
+  z-index: 1;
+  transform: rotateX(-180deg);
+  backface-visibility: hidden;
 }
