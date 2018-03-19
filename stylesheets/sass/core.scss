@@ -1,6 +1,4 @@
 // CORE SASS FILE
-<<<<<<< HEAD
-=======
 
 // Imported partials
 @import 'components/reset';
@@ -10,6 +8,8 @@
 body{
   height: 100vh;
   width: 100vw;
+  font-size: 100%;
+  background-color: #FFF;
   font-family: sans-serif;
+
 }
->>>>>>> release/1.0
