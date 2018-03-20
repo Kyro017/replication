@@ -87,7 +87,7 @@ hr{
     }
   }
 
-    li:first-child{
+    li{
       &:hover{
         .navBarDD{
           display: block;
@@ -139,7 +139,7 @@ hr{
   display: none;
   background-color: #FFF;
   position: absolute;
-  padding: 20px 0px;
+  padding: 5px 0px;
   top: $navBarHeight - 1px;
   border-left: $navBarBorderStyle;
   border-bottom: $navBarBorderStyle;
