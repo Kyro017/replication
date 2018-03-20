@@ -1,0 +1,172 @@
+// NavBar Sass Partial FILE
+
+
+// Variables
+$navBarHeight: 66px;
+
+$navBarBorderStyle: 1px solid #E5E5E5;
+
+//High level elements
+hr{
+  width: 100%;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: none;
+}
+
+//Placeholders
+%navBarUl{
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li{
+      height: 100%;
+      font-size: .88em;
+      position: relative;
+      color: #595959;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding-bottom: 1px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      &:hover{
+        color: #1BA3DE
+      }
+
+    }
+  }
+}
+
+#navBar{
+  height: 66px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  border-bottom: $navBarBorderStyle;
+
+
+
+  #navBarLeft{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+    #navBarLogo{
+    height: 100%;
+    width: auto;
+    @extend %navBarUl;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+    }
+
+    @extend %navBarUl;
+
+  ul{
+    li{
+      margin: 0 15px;
+      ul{
+        // this affects the drop down items
+        li{
+          width: 100%;
+          margin: 10px 0px;
+          padding-left: 50px;
+          text-transform: capitalize;
+          letter-spacing: -.025em;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+    li{
+      &:hover{
+        .navBarDD{
+          display: block;
+        }
+      }
+    }
+  }
+
+  #navBarRight{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+    @extend %navBarUl;
+
+    ul{
+      li{
+        margin: 0 15px;
+      }
+    }
+
+    li:first-child{
+      color: #1BA3DE;
+    }
+
+    li:nth-child(2){
+      margin-right: 0px;
+    }
+
+    li:nth-child(3){
+      &:hover{
+        fill: #1BA3DE;
+      }
+    }
+
+    li:last-child{
+      margin: 0px 0px 0px 5px;
+    }
+  }
+
+}// navBar FIN
+
+// This is my code for the drop down
+
+.navBarDD{
+  height: auto;
+  width: auto;
+  display: none;
+  background-color: #FFF;
+  position: absolute;
+  padding: 5px 0px;
+  top: $navBarHeight - 1px;
+  border-left: $navBarBorderStyle;
+  border-bottom: $navBarBorderStyle;
+  border-right: $navBarBorderStyle;
+
+
+&:hover{
+  cursor: default;
+}
+
+ul{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  li{
+    height: auto;
+    width: 100%;
+
+  }
+}
+
+}
+
+#hero{
+  width: 100vw;
+  height: 550px;
+  background-color: #CCC;
+}
