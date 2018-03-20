@@ -1,12 +1,13 @@
 // CORE SASS FILE
 
 // Imported partials
-@import 'components/reset';
-@import 'components/fontfaces';
+@import "components/reset";
+@import "components/fontfaces";
+@import "components/typestyles";
 @import "components/navBar";
+@import "components/jumbotron";
 
 // Master
-
 body{
   height: 100vh;
   width: 100vw;
@@ -14,4 +15,32 @@ body{
   background-color: #FFF;
   font-family: 'Avenir Next', sans-serif;
   font-weight: 300;
+}
+
+//SuperClasses
+.contentWrapper{
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+//SuperButtons
+.ctaBlueButton{
+  width: auto;
+  height: 44px;
+  background-color: #449FD8;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,.95);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 10px 0;
+  cursor: pointer;
+  user-select: none;
+  &:hover{
+    background-color: #1589CA;
+    transition: .5s;
+  }
 }
